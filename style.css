@@ -616,5 +616,306 @@ html {
 }
 
 
+/*მე6 სექცია*/
+
+.style{
+
+  display: flex;
+  margin: 0 auto;
+}
+
+.mental{
+  display: flex;
+  flex-direction: column;
+}
+
+.fashion{
+  padding-bottom: 69px;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.style{
+  max-width: 1204px;
+  min-width: 350px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  height: auto;
+  transition: 0.3s;
+  border: 2px solid transparent;
+ 
+}
+
+.style:hover{
+  border: 2px solid #4CE0D7;
+}
+
+.picture a{
+  position: absolute;
+  top: 25.37px;
+  left: 34.14px;
+  background-color: #262626;
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: 2px solid transparent;
+  padding: 9.42px 51.86px 9.17px 51.86px;;
+}
+
+.picture a:hover{
+    border: 3px solid #008ECF;
+}
+
+.little-photo {
+  display: flex;
+  align-items: center;
+  padding: 15.78px 25.58px 0px 43.63px;
+  padding-bottom: 35.66px;
+}
+
+.little-photo img {
+  width: 65.67px;
+  padding-bottom: 35.6px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 134px;
+}
+
+.little-photo h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  color:#BCBCBC;
+  padding-left: 14.07px;
+}
+
+.little-photo p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #BCBCBC;
+  margin: 0;
+}
+
+.reasons h2 span,
+.reasons p span{
+  display: block;
+}
+
+.reasons{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.reasons h2{
+  color: #262626;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 45.49px;
+  padding-bottom: 6px;
+
+}
+
+.reasons p{
+  color: #262626;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 45.49px;
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 19px;
+    padding-left: 45.49px;
+}
+
+.last img{
+    
+    height: 39px;
+    padding-left: 22px;
+    
+    
+}
+
+.last p{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 24%;
+    color: #4CE0D7;
+    padding-left: 25.88px;
+    
+}
+
+.last{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mental{
+  display: flex;
+  flex-direction: column;
+  gap:
+}
+
+.fashion{
+  padding-bottom: 69px;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.style{
+  max-width: 1204px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  min-height: 368px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.style:hover{
+  border: 2px solid #4CE0D7;
+}
+
+ .picture img {
+  width: 100%;
+  max-width: 575px;
+  height: auto;
+  object-fit: cover;
+}
+
+.picture a{
+  position: absolute;
+  top: 25.37px;
+  left: 34.14px;
+  background-color: #262626;
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: 2px solid transparent;
+  padding: 9.42px 51.86px 9.17px 51.86px;;
+}
+
+.picture a:hover{
+    border: 3px solid #008ECF;
+}
+
+.little-photo {
+  display: flex;
+  align-items: center;
+  padding: 15.78px 25.58px 0px 43.63px;
+  padding-bottom: 35.66px;
+  gap: 14.07px;
+}
+
+.little-photo img {
+  width: 65.67px;
+  padding-bottom: 35.6px;}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 134px;
+}
+
+.little-photo h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  color:#BCBCBC;
+  
+}
+
+.little-photo p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #BCBCBC;
+  margin: 0;
+}
+
+.reasons h2 span,
+.reasons p span{
+  display: block;
+}
+
+.reasons{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.reasons h2{
+  color: #262626;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 45.49px;
+  padding-bottom: 6px;
+
+}
+
+.reasons p{
+  color: #262626;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 45.49px;
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 19px;
+}
+
+.last img{
+    width: 52px;
+    height: 39px;
+    padding-left: 22px;
+    
+    
+}
+
+.last p{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 24%;
+    color: #4CE0D7;
+    padding-left: 25.88px;
+    
+}
+
+.last{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mental{
+  display: flex;
+  flex-direction: column;
+  gap: 25.17
+}
+
+
 
 
