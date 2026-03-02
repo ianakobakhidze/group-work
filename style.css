@@ -916,6 +916,63 @@ html {
   gap: 25.17
 }
 
+/* footer */
+
+.footer {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 101px 89px 37px 88px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  width: 100%;
+  width: 1440px;
+  height:308px;
+  margin: 0 auto;
+
+}
+
+.footer-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.footer h3 {
+  color: #262626;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.end p {
+  color: #262626;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 34px;
+}
+
+.footer-nav a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
 
 
