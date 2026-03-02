@@ -205,3 +205,79 @@ ventus{
     transform: scale(1.03)
 }
 
+/*მეორე სექცია, TOPICS და ქარდები*/
+
+.topics{
+    background-color: #F9F9F9;
+}
+
+.text h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #262626;
+}
+
+.text{
+    padding-bottom: 48px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 87.5px;
+}
+
+.card{
+    width: 204px;
+    height: 291px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translate(5.5px, -5.5px);
+}
+
+.card h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 20px;
+}
+
+.card img{
+    width: 88px;
+    margin-top: 51px;
+}
+
+.card a{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    line-height: 100%;
+    padding: 10px 40px 9.12px 40px;
+    background-color: #4CE0D7;
+    border-radius: 40px;
+    margin-top: 29px;
+    color: #262626;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+.card a:hover{
+    transform: rotate(0.47deg);
+    border: 3px solid #008ECF;
+} 
+
+
